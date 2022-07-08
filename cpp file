@@ -154,3 +154,4 @@ Portfolio Market::findPortfolioForVol(double vol)
     auto port=analyzePortfolio(percentEquity,percentBond);
     return port;
 }
+
