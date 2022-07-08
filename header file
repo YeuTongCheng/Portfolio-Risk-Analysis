@@ -1,3 +1,5 @@
+#ifndef Assignment7_h
+#define Assignment7_h
 using namespace std;
 class Portfolio
 {
@@ -42,3 +44,4 @@ public:
     double f(double percentEquity,double vol);
     
 };
+#endif
