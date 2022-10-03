@@ -2,6 +2,8 @@
 
 Assignment from "UCB MFE C++ Preprogram"
 
+Calculate the expected return and the optimal weight of each asset under a given portfolio volatility
+
 Market Class:
 Run a number of simulations by using Cholesky decomposition 
 The simulation then create correlated annual returns for equities and bonds and store the returns.
