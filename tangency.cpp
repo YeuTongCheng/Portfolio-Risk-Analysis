@@ -26,6 +26,10 @@ double Portfolio::getvol()
     return Vol;
 }
 
+// Market Class: 
+// Run a number of simulations by using Cholesky decomposition. 
+// The simulation then create correlated annual returns for equities and bonds and store the returns.
+
 Market::Market(double corrEquityBond,double equityReturn,double equityVol,double bondReturn,double bondVol,double riskFreeRate,int numSimulations): CorrEquityBond(corrEquityBond), EquityReturn(equityReturn), EquityVol(equityVol), BondReturn(bondReturn), BondVol(bondVol), RiskFreeRate(riskFreeRate), NumSimulations(numSimulations)
 {
     mt19937 mt_rand(12345);
