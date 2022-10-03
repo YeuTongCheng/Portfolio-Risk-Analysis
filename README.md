@@ -1,5 +1,7 @@
 # Portfolio-Risk-Analysis
 
+Assignment from "UCB MFE C++ Preprogram"
+
 Market Class:
 Run a number of simulations by using Cholesky decomposition 
 The simulation then create correlated annual returns for equities and bonds and store the returns.
