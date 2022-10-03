@@ -47,6 +47,10 @@ Market::Market(double corrEquityBond,double equityReturn,double equityVol,double
     
 }
 
+// Portfolio Class: 
+// Store the parameters in class properties and also store a percentCash property analyzePortfolio() uses the simulation results to calculate expected returns for the portfolio with the given percent equity and percent bonds. 
+// For each simulated pair of equity and bond returns, calculate portfolio returns.
+
 Portfolio Market::analyzePortfolio(double percentEquity,double percentBond)
 {
     vector<double> ret;
